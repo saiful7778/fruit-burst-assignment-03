@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fruit burst Assignment - 03</title>
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/0c708457ce.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- tailwind css and daisy ui -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css"
@@ -410,13 +415,15 @@
             </div>
           </div>
         </div>
-        <div class="grid md:grid-cols-4 gap-4 text-center my-12">
+        <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-4 text-center my-12">
           <!-- item 01 -->
           <div
-            class="space-y-4 my-8 rounded-lg border-2 p-10 bg-white shadow-xl"
+            class="space-y-4 my-8 rounded-lg border-2 md:p-5 lg:p-10 bg-white shadow-xl"
           >
             <img class="mx-auto" src="/images/fruit6.png" alt="" />
-            <h6 class="text-dark-01 text-2xl font-bold">12.90$ - 18.85$</h6>
+            <h6 class="text-dark-01 text-2xl md:text-xl xl:text-2xl font-bold">
+              12.90$ - 18.85$
+            </h6>
             <div class="divider"></div>
             <p class="text-dark-02 text-base font-medium">Apples</p>
             <!-- ratings -->
@@ -566,10 +573,12 @@
           </div>
           <!-- item 02 -->
           <div
-            class="space-y-4 my-8 rounded-lg border-2 p-10 bg-white shadow-xl"
+            class="space-y-4 my-8 rounded-lg border-2 md:p-5 lg:p-10 bg-white shadow-xl"
           >
             <img class="mx-auto" src="/images/fruit7.png" alt="" />
-            <h6 class="text-dark-01 text-2xl font-bold">12.90$ - 18.85$</h6>
+            <h6 class="text-dark-01 text-2xl md:text-xl xl:text-2xl font-bold">
+              12.90$ - 18.85$
+            </h6>
             <div class="divider"></div>
             <p class="text-dark-02 text-base font-medium">Orange</p>
             <!-- ratings -->
@@ -719,10 +728,12 @@
           </div>
           <!-- item 03 -->
           <div
-            class="space-y-4 my-8 rounded-lg border-2 p-10 bg-white shadow-xl"
+            class="space-y-4 my-8 rounded-lg border-2 md:p-5 lg:p-10 bg-white shadow-xl"
           >
             <img class="mx-auto" src="/images/fruit8.png" alt="" />
-            <h6 class="text-dark-01 text-2xl font-bold">12.90$ - 18.85$</h6>
+            <h6 class="text-dark-01 text-2xl md:text-xl xl:text-2xl font-bold">
+              12.90$ - 18.85$
+            </h6>
             <div class="divider"></div>
             <p class="text-dark-02 text-base font-medium">Red Dragon</p>
             <!-- ratings -->
@@ -872,10 +883,12 @@
           </div>
           <!-- item 04 -->
           <div
-            class="space-y-4 my-8 rounded-lg border-2 p-10 bg-white shadow-xl"
+            class="space-y-4 my-8 rounded-lg border-2 md:p-5 lg:p-10 bg-white shadow-xl"
           >
             <img class="mx-auto" src="/images/fruit9.png" alt="" />
-            <h6 class="text-dark-01 text-2xl font-bold">12.90$ - 18.85$</h6>
+            <h6 class="text-dark-01 text-2xl md:text-xl xl:text-2xl font-bold">
+              12.90$ - 18.85$
+            </h6>
             <div class="divider"></div>
             <p class="text-dark-02 text-base font-medium">Banana</p>
             <!-- ratings -->
@@ -1024,8 +1037,130 @@
             </dialog>
           </div>
         </div>
+        <div class="text-center">
+          <button
+            class="btn bg-clr-pri capitalize font-extrabold text-lg text-white hover:bg-transparent hover:border-1 hover:border-clr-pri hover:text-clr-pri"
+          >
+            Shop All
+          </button>
+        </div>
       </section>
       <!-- deal of the day section end -->
+      <!-- team section start -->
+      <section class="my-10">
+        <div
+          class="rounded w-full text-white text-center py-10 px-3"
+          style="
+            background: linear-gradient(
+                to top,
+                rgba(18, 18, 18, 0.7),
+                rgba(18, 18, 18, 0.7)
+              ),
+              url('images/team.png') center no-repeat;
+            background-size: cover;
+          "
+        >
+          <h2 class="text-5xl font-extrabold">Meet the team</h2>
+          <p class="text-base font-medium md:w-1/2 mx-auto my-4">
+            Contrary to popular belief, is not simply random text. It has roots
+            in a piece of classical Latin literature from 45 BC, making it over
+            2000 years old.
+          </p>
+          <div class="grid md:grid-cols-4 my-14 gap-10">
+            <div>
+              <img class="mx-auto" src="/images/member1.png" alt="" />
+              <h6 class="text-xl lg:text-2xl font-bold mt-4">Awlad Hossain</h6>
+              <p class="text-base font-medium my-2">Fruits Expert</p>
+              <div class="flex justify-center gap-3">
+                <a href="https://www.facebook.com" target="_blank">
+                  <i
+                    class="rounded-full w-8 h-8 p-2 bg-clr-pri fa-brands fa-facebook-f"
+                  ></i>
+                </a>
+                <a href="https://www.twitter.com" target="_blank">
+                  <i
+                    class="rounded-full w-8 h-8 p-2 bg-clr-pri fa-brands fa-twitter"
+                  ></i>
+                </a>
+                <a href="https://www.linkedin.com" target="_blank">
+                  <i
+                    class="rounded-full w-8 h-8 p-2 bg-clr-pri fa-brands fa-linkedin-in"
+                  ></i>
+                </a>
+              </div>
+            </div>
+            <div>
+              <img class="mx-auto" src="/images/member2.png" alt="" />
+              <h6 class="text-xl lg:text-2xl font-bold mt-4">
+                Safia Chowdhury
+              </h6>
+              <p class="text-base font-medium my-2">Fruits Expert</p>
+              <div class="flex justify-center gap-3">
+                <a href="https://www.facebook.com" target="_blank">
+                  <i
+                    class="rounded-full w-8 h-8 p-2 bg-clr-pri fa-brands fa-facebook-f"
+                  ></i>
+                </a>
+                <a href="https://www.twitter.com" target="_blank">
+                  <i
+                    class="rounded-full w-8 h-8 p-2 bg-clr-pri fa-brands fa-twitter"
+                  ></i>
+                </a>
+                <a href="https://www.linkedin.com" target="_blank">
+                  <i
+                    class="rounded-full w-8 h-8 p-2 bg-clr-pri fa-brands fa-linkedin-in"
+                  ></i>
+                </a>
+              </div>
+            </div>
+            <div>
+              <img class="mx-auto" src="/images/member3.png" alt="" />
+              <h6 class="text-xl lg:text-2xl font-bold mt-4">Rokib Hossain</h6>
+              <p class="text-base font-medium my-2">Fruits Expert</p>
+              <div class="flex justify-center gap-3">
+                <a href="https://www.facebook.com" target="_blank">
+                  <i
+                    class="rounded-full w-8 h-8 p-2 bg-clr-pri fa-brands fa-facebook-f"
+                  ></i>
+                </a>
+                <a href="https://www.twitter.com" target="_blank">
+                  <i
+                    class="rounded-full w-8 h-8 p-2 bg-clr-pri fa-brands fa-twitter"
+                  ></i>
+                </a>
+                <a href="https://www.linkedin.com" target="_blank">
+                  <i
+                    class="rounded-full w-8 h-8 p-2 bg-clr-pri fa-brands fa-linkedin-in"
+                  ></i>
+                </a>
+              </div>
+            </div>
+            <div>
+              <img class="mx-auto" src="/images/member4.png" alt="" />
+              <h6 class="text-xl lg:text-2xl font-bold mt-4">Chaity</h6>
+              <p class="text-base font-medium my-2">Fruits Expert</p>
+              <div class="flex justify-center gap-3">
+                <a href="https://www.facebook.com" target="_blank">
+                  <i
+                    class="rounded-full w-8 h-8 p-2 bg-clr-pri fa-brands fa-facebook-f"
+                  ></i>
+                </a>
+                <a href="https://www.twitter.com" target="_blank">
+                  <i
+                    class="rounded-full w-8 h-8 p-2 bg-clr-pri fa-brands fa-twitter"
+                  ></i>
+                </a>
+                <a href="https://www.linkedin.com" target="_blank">
+                  <i
+                    class="rounded-full w-8 h-8 p-2 bg-clr-pri fa-brands fa-linkedin-in"
+                  ></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- team section end -->
     </main>
     <script>
       let endData = new Date("jul 30, 2023 23:59:59").getTime();
