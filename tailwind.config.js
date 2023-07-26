@@ -17,6 +17,7 @@ module.exports = {
         "clr-pri": "#F85559",
         "dark-01": "#121212",
         "dark-02": "#12121299",
+        "dark-03": "#12121210",
       },
     },
     fontFamily: {
