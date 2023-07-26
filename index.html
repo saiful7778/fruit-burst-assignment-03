@@ -344,5 +344,718 @@
       </div>
       <!-- product showcase section end -->
     </header>
+    <main class="container py-20 px-3">
+      <!-- deal of the day section start -->
+      <section>
+        <div
+          class="flex flex-col md:flex-row justify-between items-center w-full"
+        >
+          <div class="flex-1 max-sm:mb-8 max-sm:text-center">
+            <h2 class="text-dark-01 text-5xl font-extrabold">
+              Deal of the day
+            </h2>
+            <p class="text-dark-02 text-base font-medium mt-6">
+              Contrary to popular belief, is not simply random text. It has
+              roots in a piece of classical Latin literature from 45 BC, making
+              it over 2000 years old.
+            </p>
+          </div>
+          <div class="flex-1">
+            <div
+              class="grid grid-flow-col gap-5 text-center auto-cols-max justify-end"
+            >
+              <div class="flex flex-col">
+                <span class="countdown text-5xl text-dark-01 font-extrabold">
+                  <span id="day" style="--value: 15"></span>
+                </span>
+                <span class="text-dark-02 font-medium text-base"> Days </span>
+              </div>
+              <div class="dots mt-4">
+                <div class="bg-dark-01 p-[1px] rounded"></div>
+                <div class="bg-dark-01 p-[1px] rounded my-1"></div>
+                <div class="bg-dark-01 p-[1px] rounded"></div>
+              </div>
+              <div class="flex flex-col">
+                <span class="countdown text-5xl text-dark-01 font-extrabold">
+                  <span id="hour" style="--value: 10"></span>
+                </span>
+                <span class="text-dark-02 font-medium text-base"> Hours </span>
+              </div>
+              <div class="dots mt-4">
+                <div class="bg-dark-01 p-[1px] rounded"></div>
+                <div class="bg-dark-01 p-[1px] rounded my-1"></div>
+                <div class="bg-dark-01 p-[1px] rounded"></div>
+              </div>
+              <div class="flex flex-col">
+                <span class="countdown text-5xl text-dark-01 font-extrabold">
+                  <span id="min" style="--value: 24"></span>
+                </span>
+                <span class="text-dark-02 font-medium text-base">
+                  Minutes
+                </span>
+              </div>
+              <div class="dots mt-4">
+                <div class="bg-dark-01 p-[1px] rounded"></div>
+                <div class="bg-dark-01 p-[1px] rounded my-1"></div>
+                <div class="bg-dark-01 p-[1px] rounded"></div>
+              </div>
+              <div class="flex flex-col">
+                <span class="countdown text-5xl text-dark-01 font-extrabold">
+                  <span id="sec" style="--value: 38"></span>
+                </span>
+                <span class="text-dark-02 font-medium text-base">
+                  Seconds
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid md:grid-cols-4 gap-4 text-center my-12">
+          <!-- item 01 -->
+          <div
+            class="space-y-4 my-8 rounded-lg border-2 p-10 bg-white shadow-xl"
+          >
+            <img class="mx-auto" src="/images/fruit6.png" alt="" />
+            <h6 class="text-dark-01 text-2xl font-bold">12.90$ - 18.85$</h6>
+            <div class="divider"></div>
+            <p class="text-dark-02 text-base font-medium">Apples</p>
+            <!-- ratings -->
+            <div class="rating rating-md rating-half">
+              <input type="radio" name="rating-01" class="rating-hidden" />
+              <input
+                type="radio"
+                name="rating-01"
+                class="bg-clr-pri mask mask-star-2 mask-half-1"
+              />
+              <input
+                type="radio"
+                name="rating-01"
+                class="bg-clr-pri mask mask-star-2 mask-half-2"
+              />
+              <input
+                type="radio"
+                name="rating-01"
+                class="bg-clr-pri mask mask-star-2 mask-half-1"
+                checked
+              />
+              <input
+                type="radio"
+                name="rating-01"
+                class="bg-clr-pri mask mask-star-2 mask-half-2"
+              />
+              <input
+                type="radio"
+                name="rating-01"
+                class="bg-clr-pri mask mask-star-2 mask-half-1"
+              />
+              <input
+                type="radio"
+                name="rating-01"
+                class="bg-clr-pri mask mask-star-2 mask-half-2"
+              />
+              <input
+                type="radio"
+                name="rating-01"
+                class="bg-clr-pri mask mask-star-2 mask-half-1"
+              />
+              <input
+                type="radio"
+                name="rating-01"
+                class="bg-clr-pri mask mask-star-2 mask-half-2"
+              />
+              <input
+                type="radio"
+                name="rating-01"
+                class="bg-clr-pri mask mask-star-2 mask-half-1"
+              />
+              <input
+                type="radio"
+                name="rating-01"
+                class="bg-clr-pri mask mask-star-2 mask-half-2"
+              />
+            </div>
+            <!-- modal button -->
+            <!-- Open the modal using ID.showModal() method -->
+            <button
+              class="block mx-auto text-clr-pri text-base font-bold"
+              onclick="fruit_modal_1.showModal()"
+            >
+              Details
+            </button>
+            <dialog
+              id="fruit_modal_1"
+              class="modal modal-bottom sm:modal-middle"
+            >
+              <form method="dialog" class="modal-box p-10 md:p-20 space-y-4">
+                <img class="mx-auto" src="images/fruit6.png" alt="" />
+                <h6 class="text-dark-01 text-2xl font-bold">Apples</h6>
+                <p class="text-dark-02 text-base font-medium">
+                  Professional employees are there for you to pick the most
+                  amazing and fresh fruits.
+                </p>
+                <!-- ratings -->
+                <div class="rating rating-md rating-half">
+                  <input type="radio" name="rating-02" class="rating-hidden" />
+                  <input
+                    type="radio"
+                    name="rating-02"
+                    class="bg-clr-pri mask mask-star-2 mask-half-1"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-02"
+                    class="bg-clr-pri mask mask-star-2 mask-half-2"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-02"
+                    class="bg-clr-pri mask mask-star-2 mask-half-1"
+                    checked
+                  />
+                  <input
+                    type="radio"
+                    name="rating-02"
+                    class="bg-clr-pri mask mask-star-2 mask-half-2"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-02"
+                    class="bg-clr-pri mask mask-star-2 mask-half-1"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-02"
+                    class="bg-clr-pri mask mask-star-2 mask-half-2"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-02"
+                    class="bg-clr-pri mask mask-star-2 mask-half-1"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-02"
+                    class="bg-clr-pri mask mask-star-2 mask-half-2"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-02"
+                    class="bg-clr-pri mask mask-star-2 mask-half-1"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-02"
+                    class="bg-clr-pri mask mask-star-2 mask-half-2"
+                  />
+                </div>
+                <div class="modal-action justify-center">
+                  <!-- if there is a button in form, it will close the modal -->
+                  <button
+                    class="btn btn-outline border-clr-pri text-clr-pri font-extrabold capitalize hover:bg-clr-pri text-lg hover:border-clr-pri"
+                  >
+                    Close
+                  </button>
+                  <button
+                    class="btn bg-clr-pri capitalize font-extrabold text-lg text-white hover:bg-transparent hover:border-1 hover:border-clr-pri hover:text-clr-pri"
+                  >
+                    Buy Now
+                  </button>
+                </div>
+              </form>
+            </dialog>
+          </div>
+          <!-- item 02 -->
+          <div
+            class="space-y-4 my-8 rounded-lg border-2 p-10 bg-white shadow-xl"
+          >
+            <img class="mx-auto" src="/images/fruit7.png" alt="" />
+            <h6 class="text-dark-01 text-2xl font-bold">12.90$ - 18.85$</h6>
+            <div class="divider"></div>
+            <p class="text-dark-02 text-base font-medium">Orange</p>
+            <!-- ratings -->
+            <div class="rating rating-md rating-half">
+              <input type="radio" name="rating-03" class="rating-hidden" />
+              <input
+                type="radio"
+                name="rating-03"
+                class="bg-clr-pri mask mask-star-2 mask-half-1"
+              />
+              <input
+                type="radio"
+                name="rating-03"
+                class="bg-clr-pri mask mask-star-2 mask-half-2"
+              />
+              <input
+                type="radio"
+                name="rating-03"
+                class="bg-clr-pri mask mask-star-2 mask-half-1"
+                checked
+              />
+              <input
+                type="radio"
+                name="rating-03"
+                class="bg-clr-pri mask mask-star-2 mask-half-2"
+              />
+              <input
+                type="radio"
+                name="rating-03"
+                class="bg-clr-pri mask mask-star-2 mask-half-1"
+              />
+              <input
+                type="radio"
+                name="rating-03"
+                class="bg-clr-pri mask mask-star-2 mask-half-2"
+              />
+              <input
+                type="radio"
+                name="rating-03"
+                class="bg-clr-pri mask mask-star-2 mask-half-1"
+              />
+              <input
+                type="radio"
+                name="rating-03"
+                class="bg-clr-pri mask mask-star-2 mask-half-2"
+              />
+              <input
+                type="radio"
+                name="rating-03"
+                class="bg-clr-pri mask mask-star-2 mask-half-1"
+              />
+              <input
+                type="radio"
+                name="rating-03"
+                class="bg-clr-pri mask mask-star-2 mask-half-2"
+              />
+            </div>
+            <!-- modal button -->
+            <!-- Open the modal using ID.showModal() method -->
+            <button
+              class="block mx-auto text-clr-pri text-base font-bold"
+              onclick="fruit_modal_2.showModal()"
+            >
+              Details
+            </button>
+            <dialog
+              id="fruit_modal_2"
+              class="modal modal-bottom sm:modal-middle"
+            >
+              <form method="dialog" class="modal-box p-10 md:p-20 space-y-4">
+                <img class="mx-auto" src="images/fruit7.png" alt="" />
+                <h6 class="text-dark-01 text-2xl font-bold">Orange</h6>
+                <p class="text-dark-02 text-base font-medium">
+                  Professional employees are there for you to pick the most
+                  amazing and fresh fruits.
+                </p>
+                <!-- ratings -->
+                <div class="rating rating-md rating-half">
+                  <input type="radio" name="rating-04" class="rating-hidden" />
+                  <input
+                    type="radio"
+                    name="rating-04"
+                    class="bg-clr-pri mask mask-star-2 mask-half-1"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-04"
+                    class="bg-clr-pri mask mask-star-2 mask-half-2"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-04"
+                    class="bg-clr-pri mask mask-star-2 mask-half-1"
+                    checked
+                  />
+                  <input
+                    type="radio"
+                    name="rating-04"
+                    class="bg-clr-pri mask mask-star-2 mask-half-2"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-04"
+                    class="bg-clr-pri mask mask-star-2 mask-half-1"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-04"
+                    class="bg-clr-pri mask mask-star-2 mask-half-2"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-04"
+                    class="bg-clr-pri mask mask-star-2 mask-half-1"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-04"
+                    class="bg-clr-pri mask mask-star-2 mask-half-2"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-04"
+                    class="bg-clr-pri mask mask-star-2 mask-half-1"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-04"
+                    class="bg-clr-pri mask mask-star-2 mask-half-2"
+                  />
+                </div>
+                <div class="modal-action justify-center">
+                  <!-- if there is a button in form, it will close the modal -->
+                  <button
+                    class="btn btn-outline border-clr-pri text-clr-pri font-extrabold capitalize hover:bg-clr-pri text-lg hover:border-clr-pri"
+                  >
+                    Close
+                  </button>
+                  <button
+                    class="btn bg-clr-pri capitalize font-extrabold text-lg text-white hover:bg-transparent hover:border-1 hover:border-clr-pri hover:text-clr-pri"
+                  >
+                    Buy Now
+                  </button>
+                </div>
+              </form>
+            </dialog>
+          </div>
+          <!-- item 03 -->
+          <div
+            class="space-y-4 my-8 rounded-lg border-2 p-10 bg-white shadow-xl"
+          >
+            <img class="mx-auto" src="/images/fruit8.png" alt="" />
+            <h6 class="text-dark-01 text-2xl font-bold">12.90$ - 18.85$</h6>
+            <div class="divider"></div>
+            <p class="text-dark-02 text-base font-medium">Red Dragon</p>
+            <!-- ratings -->
+            <div class="rating rating-md rating-half">
+              <input type="radio" name="rating-05" class="rating-hidden" />
+              <input
+                type="radio"
+                name="rating-05"
+                class="bg-clr-pri mask mask-star-2 mask-half-1"
+              />
+              <input
+                type="radio"
+                name="rating-05"
+                class="bg-clr-pri mask mask-star-2 mask-half-2"
+              />
+              <input
+                type="radio"
+                name="rating-05"
+                class="bg-clr-pri mask mask-star-2 mask-half-1"
+                checked
+              />
+              <input
+                type="radio"
+                name="rating-05"
+                class="bg-clr-pri mask mask-star-2 mask-half-2"
+              />
+              <input
+                type="radio"
+                name="rating-05"
+                class="bg-clr-pri mask mask-star-2 mask-half-1"
+              />
+              <input
+                type="radio"
+                name="rating-05"
+                class="bg-clr-pri mask mask-star-2 mask-half-2"
+              />
+              <input
+                type="radio"
+                name="rating-05"
+                class="bg-clr-pri mask mask-star-2 mask-half-1"
+              />
+              <input
+                type="radio"
+                name="rating-05"
+                class="bg-clr-pri mask mask-star-2 mask-half-2"
+              />
+              <input
+                type="radio"
+                name="rating-05"
+                class="bg-clr-pri mask mask-star-2 mask-half-1"
+              />
+              <input
+                type="radio"
+                name="rating-05"
+                class="bg-clr-pri mask mask-star-2 mask-half-2"
+              />
+            </div>
+            <!-- modal button -->
+            <!-- Open the modal using ID.showModal() method -->
+            <button
+              class="block mx-auto text-clr-pri text-base font-bold"
+              onclick="fruit_modal_3.showModal()"
+            >
+              Details
+            </button>
+            <dialog
+              id="fruit_modal_3"
+              class="modal modal-bottom sm:modal-middle"
+            >
+              <form method="dialog" class="modal-box p-10 md:p-20 space-y-4">
+                <img class="mx-auto" src="images/fruit8.png" alt="" />
+                <h6 class="text-dark-01 text-2xl font-bold">Red Dragon</h6>
+                <p class="text-dark-02 text-base font-medium">
+                  Professional employees are there for you to pick the most
+                  amazing and fresh fruits.
+                </p>
+                <!-- ratings -->
+                <div class="rating rating-md rating-half">
+                  <input type="radio" name="rating-06" class="rating-hidden" />
+                  <input
+                    type="radio"
+                    name="rating-06"
+                    class="bg-clr-pri mask mask-star-2 mask-half-1"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-06"
+                    class="bg-clr-pri mask mask-star-2 mask-half-2"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-06"
+                    class="bg-clr-pri mask mask-star-2 mask-half-1"
+                    checked
+                  />
+                  <input
+                    type="radio"
+                    name="rating-06"
+                    class="bg-clr-pri mask mask-star-2 mask-half-2"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-06"
+                    class="bg-clr-pri mask mask-star-2 mask-half-1"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-06"
+                    class="bg-clr-pri mask mask-star-2 mask-half-2"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-06"
+                    class="bg-clr-pri mask mask-star-2 mask-half-1"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-06"
+                    class="bg-clr-pri mask mask-star-2 mask-half-2"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-06"
+                    class="bg-clr-pri mask mask-star-2 mask-half-1"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-06"
+                    class="bg-clr-pri mask mask-star-2 mask-half-2"
+                  />
+                </div>
+                <div class="modal-action justify-center">
+                  <!-- if there is a button in form, it will close the modal -->
+                  <button
+                    class="btn btn-outline border-clr-pri text-clr-pri font-extrabold capitalize hover:bg-clr-pri text-lg hover:border-clr-pri"
+                  >
+                    Close
+                  </button>
+                  <button
+                    class="btn bg-clr-pri capitalize font-extrabold text-lg text-white hover:bg-transparent hover:border-1 hover:border-clr-pri hover:text-clr-pri"
+                  >
+                    Buy Now
+                  </button>
+                </div>
+              </form>
+            </dialog>
+          </div>
+          <!-- item 04 -->
+          <div
+            class="space-y-4 my-8 rounded-lg border-2 p-10 bg-white shadow-xl"
+          >
+            <img class="mx-auto" src="/images/fruit9.png" alt="" />
+            <h6 class="text-dark-01 text-2xl font-bold">12.90$ - 18.85$</h6>
+            <div class="divider"></div>
+            <p class="text-dark-02 text-base font-medium">Banana</p>
+            <!-- ratings -->
+            <div class="rating rating-md rating-half">
+              <input type="radio" name="rating-07" class="rating-hidden" />
+              <input
+                type="radio"
+                name="rating-07"
+                class="bg-clr-pri mask mask-star-2 mask-half-1"
+              />
+              <input
+                type="radio"
+                name="rating-07"
+                class="bg-clr-pri mask mask-star-2 mask-half-2"
+              />
+              <input
+                type="radio"
+                name="rating-07"
+                class="bg-clr-pri mask mask-star-2 mask-half-1"
+                checked
+              />
+              <input
+                type="radio"
+                name="rating-07"
+                class="bg-clr-pri mask mask-star-2 mask-half-2"
+              />
+              <input
+                type="radio"
+                name="rating-07"
+                class="bg-clr-pri mask mask-star-2 mask-half-1"
+              />
+              <input
+                type="radio"
+                name="rating-07"
+                class="bg-clr-pri mask mask-star-2 mask-half-2"
+              />
+              <input
+                type="radio"
+                name="rating-07"
+                class="bg-clr-pri mask mask-star-2 mask-half-1"
+              />
+              <input
+                type="radio"
+                name="rating-07"
+                class="bg-clr-pri mask mask-star-2 mask-half-2"
+              />
+              <input
+                type="radio"
+                name="rating-07"
+                class="bg-clr-pri mask mask-star-2 mask-half-1"
+              />
+              <input
+                type="radio"
+                name="rating-07"
+                class="bg-clr-pri mask mask-star-2 mask-half-2"
+              />
+            </div>
+            <!-- modal button -->
+            <!-- Open the modal using ID.showModal() method -->
+            <button
+              class="block mx-auto text-clr-pri text-base font-bold"
+              onclick="fruit_modal_4.showModal()"
+            >
+              Details
+            </button>
+            <dialog
+              id="fruit_modal_4"
+              class="modal modal-bottom sm:modal-middle"
+            >
+              <form method="dialog" class="modal-box p-10 md:p-20 space-y-4">
+                <img class="mx-auto" src="images/fruit9.png" alt="" />
+                <h6 class="text-dark-01 text-2xl font-bold">Banana</h6>
+                <p class="text-dark-02 text-base font-medium">
+                  Professional employees are there for you to pick the most
+                  amazing and fresh fruits.
+                </p>
+                <!-- ratings -->
+                <div class="rating rating-md rating-half">
+                  <input type="radio" name="rating-08" class="rating-hidden" />
+                  <input
+                    type="radio"
+                    name="rating-08"
+                    class="bg-clr-pri mask mask-star-2 mask-half-1"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-08"
+                    class="bg-clr-pri mask mask-star-2 mask-half-2"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-08"
+                    class="bg-clr-pri mask mask-star-2 mask-half-1"
+                    checked
+                  />
+                  <input
+                    type="radio"
+                    name="rating-08"
+                    class="bg-clr-pri mask mask-star-2 mask-half-2"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-08"
+                    class="bg-clr-pri mask mask-star-2 mask-half-1"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-08"
+                    class="bg-clr-pri mask mask-star-2 mask-half-2"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-08"
+                    class="bg-clr-pri mask mask-star-2 mask-half-1"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-08"
+                    class="bg-clr-pri mask mask-star-2 mask-half-2"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-08"
+                    class="bg-clr-pri mask mask-star-2 mask-half-1"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-08"
+                    class="bg-clr-pri mask mask-star-2 mask-half-2"
+                  />
+                </div>
+                <div class="modal-action justify-center">
+                  <!-- if there is a button in form, it will close the modal -->
+                  <button
+                    class="btn btn-outline border-clr-pri text-clr-pri font-extrabold capitalize hover:bg-clr-pri text-lg hover:border-clr-pri"
+                  >
+                    Close
+                  </button>
+                  <button
+                    class="btn bg-clr-pri capitalize font-extrabold text-lg text-white hover:bg-transparent hover:border-1 hover:border-clr-pri hover:text-clr-pri"
+                  >
+                    Buy Now
+                  </button>
+                </div>
+              </form>
+            </dialog>
+          </div>
+        </div>
+      </section>
+      <!-- deal of the day section end -->
+    </main>
+    <script>
+      let endData = new Date("jul 30, 2023 23:59:59").getTime();
+      const dayEle = document.querySelector("#day");
+      const hourEle = document.querySelector("#hour");
+      const minEle = document.querySelector("#min");
+      const secEle = document.querySelector("#sec");
+
+      const timer = setInterval(() => {
+        let presentTime = new Date().getTime();
+
+        let timeDiff = endData - presentTime;
+
+        let days = Math.floor(timeDiff / 86400000);
+        let hours = Math.floor((timeDiff % 86400000) / 3600000);
+        let min = Math.floor((timeDiff % 3600000) / 60000);
+        let sec = Math.floor((timeDiff % 60000) / 1000);
+        dayEle.style = `--value: ${days}`;
+        hourEle.style = `--value: ${hours}`;
+        minEle.style = `--value: ${min}`;
+        secEle.style = `--value: ${sec}`;
+        if (timeDiff <= 0) {
+          clearInterval(timer);
+          let reset = `--value: 00`;
+          dayEle.style = reset;
+          hourEle.style = reset;
+          minEle.style = reset;
+          secEle.style = reset;
+        }
+      }, 1000);
+    </script>
   </body>
 </html>
